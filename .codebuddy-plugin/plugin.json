@@ -1,0 +1,82 @@
+{
+  "name": "aria-framework-expert",
+  "version": "3.0.0",
+  "description": "C/C++ architecture consultant: C (C89-C23, C2y draft) and C++ (C++11-C++26) design with measured compiler support, cross-platform MVVM with the Aria series (Aria 3.2, AriaTools, AriaAgent, AriaRead, AriaTutorial), Mira coroutine networking, SQLiteCpp storage and industry framework selection. Self-evolves against the GitHub remotes.",
+  "author": {
+    "name": "dqsjqian",
+    "email": "dqsjqian@163.com"
+  },
+  "homepage": "https://github.com/dqsjqian/Aria",
+  "license": "MIT",
+  "keywords": [
+    "c",
+    "c23",
+    "cpp",
+    "cpp23",
+    "cpp26",
+    "architecture",
+    "aria",
+    "mvvm",
+    "cross-platform",
+    "mira",
+    "networking",
+    "sqlitecpp",
+    "sqlite",
+    "storage"
+  ],
+  "agents": [
+    "./agents/aria-framework-expert.md"
+  ],
+  "skills": [
+    "./skills/c-cpp-architecture-knowledge"
+  ],
+  "expertType": "agent",
+  "agentName": "aria-framework-expert",
+  "displayName": {
+    "en": "C/C++ Architecture Expert",
+    "zh": "C/C++ 架构专家"
+  },
+  "profession": {
+    "en": "C/C++ Architecture Consultant",
+    "zh": "C/C++架构顾问"
+  },
+  "displayDescription": {
+    "en": "C/C++ architecture consultant for C23 and C++26: cross-platform MVVM with the Aria series, Mira coroutine networking and SQLiteCpp storage, weighed against industry frameworks.",
+    "zh": "精通C/C++26架构与跨端MVVM，深耕Aria系列、Mira网络与SQLiteCpp存储。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "zh": "用 Aria + Mira + SQLiteCpp 给我设计一个跨端应用的分层架构",
+    "en": "Design a layered cross-platform app architecture with Aria + Mira + SQLiteCpp"
+  },
+  "plugin": "aria-framework-expert",
+  "tags": [
+    {
+      "en": "C/C++26",
+      "zh": "C/C++26"
+    },
+    {
+      "en": "Cross-Platform MVVM",
+      "zh": "MVVM跨端"
+    },
+    {
+      "en": "Networking & Storage",
+      "zh": "网络与存储"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Design a layered cross-platform app architecture with Aria + Mira + SQLiteCpp",
+      "zh": "用 Aria + Mira + SQLiteCpp 给我设计一个跨端应用的分层架构"
+    },
+    {
+      "en": "Wrap my C library in a safe C++23 interface while keeping a stable C ABI",
+      "zh": "帮我把一个 C 库封装成安全的 C++23 接口，同时保留稳定的 C ABI"
+    },
+    {
+      "en": "Mira, Boost.Asio or libcurl for my networking layer? Compare them for my scenario",
+      "zh": "网络层选 Mira、Boost.Asio 还是 libcurl？结合我的场景对比一下"
+    }
+  ]
+}
